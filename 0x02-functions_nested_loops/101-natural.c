@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - main function
  *
@@ -6,18 +7,17 @@
  */
 int main(void)
 {
-	int x;
+	int a;
+	int b = 0;
 
-	int y = 0;
-
-	for (x = 0; x < 1024; x++)
+	for (a = 0; a < 1024; a++)
 	{
-		if (y % 3 == 0 || x % 5 == 0)
+		if (a % 3 == 0 || a % 5 == 0)
 		{
-			y += x;
+			b += a;
 		}
 
 	}
-	printf("%d\n", y);
+	printf("%d\n", b);
 	return (0);
 }
