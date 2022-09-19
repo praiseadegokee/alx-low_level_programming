@@ -29,7 +29,7 @@ void rev_string(char *s)
 	{
 		f = *end_f;
 		*end_f = *start_f;
-		*start_f = f
+		*start_f = f;
 
 		start_f++;
 		end_f--;
